@@ -87,33 +87,33 @@ export const dataHomepage = [
 
 export const dataBanner = [
     {
-        id: 6,
+        id: 1,
         title: "Miễn phí khám vô sinh hiếm muộn tại Bệnh viện Nam học Hiếm muộn Việt - Bỉ",
-        img: banner1,
+        img: banner6,
         text: " Some quick example text to build on the card title and make up the  bulk of the card content.",
     },
     {
-        id: 6,
+        id: 2,
         title: "Ưu đãi tới 25% gói khám tổng quát tại Bệnh viện Quốc tế City",
-        img: banner2,
+        img: banner6,
         text: " Some quick example text to build on the card title and make up the  bulk of the card content.",
     },
     {
-        id: 6,
+        id: 3,
         title: "Giải pháp chuyển đổi số toàn diện cho bệnh viện, phòng khám",
-        img: banner3,
+        img: banner6,
         text: " Some quick example text to build on the card title and make up the  bulk of the card content.",
     },
     {
-        id: 6,
+        id: 4,
         title: "Điều trị da liễu chỉ từ 99k tại Phòng khám Chuyên khoa Da liễu Maia&Maia",
         text: " Some quick example text to build on the card title and make up the  bulk of the card content.",
-        img: banner4,
+        img: banner6,
     },
     {
-        id: 6,
+        id: 5,
         title: "Tháng 3 bao la ưu đãi tại Phòng khám Chuyên khoa Da liễu PROSKIN",
-        img: banner5,
+        img: banner6,
         text: " Some quick example text to build on the card title and make up the  bulk of the card content.",
     },
     {
@@ -123,9 +123,9 @@ export const dataBanner = [
         text: " Some quick example text to build on the card title and make up the  bulk of the card content.",
     },
     {
-        id: 6,
+        id: 7,
         title: "Trị mụn chuẩn y khoa giá ưu đãi tại Phòng khám Da liễu Hà Nội",
-        img: banner7,
+        img: banner6,
         text: " Some quick example text to build on the card title and make up the  bulk of the card content.",
     },
 ];
