@@ -283,12 +283,12 @@ function Departments(props) {
           />
           <div className="my-3">
             <FormControl sx={{ width: 200 }}>
-              <InputLabel id="demo-simple-select-label">Age</InputLabel>
+              <InputLabel id="demo-simple-select-label">Giá dịch vụ</InputLabel>
               <Select
                 labelId="demo-simple-select-label"
                 id="demo-simple-select"
                 value={valueService.servicebaseId}
-                label="Age"
+                label="Price"
                 onChange={(e) =>
                   setValueService({
                     ...valueService,
