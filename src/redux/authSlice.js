@@ -58,6 +58,20 @@ export const AddService = createAsyncThunk('update/detail', async (payload) => {
     console.log("respone", response)
     return response.data
 })
+export const AddServicOutCategogy = createAsyncThunk('update/detail', async (payload) => {
+    const response = await axios.post(API_SERVICE_DETAIL, {
+        "name": payload.name,
+        "totalPrice": payload.totalPrice,
+        "servicebaseId": payload.servicebaseId
+    }, {
+        headers: {
+            "Content-Type": "application/json",
+            "x_authorization": payload.token
+        }
+    })
+    console.log("respone", response)
+    return response.data
+})
 export const UpdateOneServiceDetail = createAsyncThunk('update/detail', async (payload) => {
     const response = await axios.put(API_SERVICE + `/${payload.url}`, {
         "name": payload.value
